@@ -1,5 +1,4 @@
 {% load static %}
-<h3>Hello World!</h3>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,33 +16,76 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="card card-body">
-                    <img src="{% static 'images/Puskar.jpg' %}" width="180", height="200">
+                <div id="profile-wrapper" class="card card-body h-100 border-info">
+                    <img id="profile-pic" src="{% static 'images/Puskar.jpg' %}" width="180", height="200">
                     <hr>
                     <h4>Hi i'm Puskar!</h4>
                     <p>I love coding, interacting and travelling</p>
                 </div>
             </div>
              <div class="col-md-9">
-                <div class="card card-body"></div>
+                <div class="card card-body h-100 border-info">
+                    <h4>My First Job as a Developer.</h4>
+                    <hr>
+                    <p>
+                        Months after writing my firs app i got my first job as a Python/Django Developer!
+                    </p>
+                    <p>
+                        I thought it would be so tough to get a job of a developer. But with my great practice it was
+                        not that difficult.
+                    </p>
+                    <p>
+                        So, thats about me!
+                    </p>
+                    <ul class="social-links">
+                        <li><a href="https://instagram.com/puskarjoshi_">
+                            <img class="social" src="{% static 'images/instagram.png' %}"></a></li>
+                        <li><a href="https://facebook.com/jopuskar">
+                            <img class="social" src="{% static 'images/facebook.png' %}"></a></li>
+                        <li><a href="https://twitter.com/impuskarjoshi">
+                            <img class="social" src="{% static 'images/twitter.png' %}"></a></li>
+                        <li><a href="https://linkedin.com/in/impuskar">
+                            <img class="social" src="{% static 'images/linkedin.png' %}"></a></li>
+                        <li><a href="https://youtube.com/channel/UC2zps6EywAL1mz9nqRMRa_Q">
+                            <img class="social" src="{% static 'images/youtube.png' %}"></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-md-6">
-                <div class="card card-body"></div>
+                <div class="card card-body h-100">
+                    <h5>My Exprience as a Developer</h5>
+                    <hr>
+                    <p>Python/Django Develpor at Naxa Pvt. Ltd</p>
+                    <p>Built a Housing Reconstruction Web Application!</p>
+                </div>
             </div>
              <div class="col-md-6">
-                <div class="card card-body"></div>
+                <div class="card card-body h-100">
+                    <h5>What i know?</h5>
+                    <hr>
+                    <p>Python, Django, HTML/CSS, Postgres, React, APIs such as Google maps and others things that
+                    i can't possibly include here.</p>
+                </div>
             </div>
         </div>
         <br>
         <div class="row">
             <div class="col-md-6">
-                <div class="card card-body"></div>
+                <div class="card card-body h-100">
+                    <h5>What i am doing currently?</h5>
+                    <hr>
+                    <p>Just coding to earn my living.</p>
+                </div>
             </div>
              <div class="col-md-6">
-                <div class="card card-body"></div>
+                <div class="card card-body h-100">
+                    <h5>My short term goals</h5>
+                    <hr>
+                    <p>Still to figure out. Just going with the flow!</p>
+                </div>
             </div>
         </div>
         <br>
