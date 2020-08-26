@@ -1,0 +1,52 @@
+{% load static %}
+<h3>Hello World!</h3>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Puskar Joshi</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body">
+                    <img src="{% static 'images/Puskar.jpg' %}" width="180", height="200">
+                    <hr>
+                    <h4>Hi i'm Puskar!</h4>
+                    <p>I love coding, interacting and travelling</p>
+                </div>
+            </div>
+             <div class="col-md-9">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+             <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+             <div class="col-md-6">
+                <div class="card card-body"></div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
