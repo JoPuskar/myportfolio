@@ -58,6 +58,7 @@ media/
 
 #a-staticfiles
 a-static/
+a-staticfiles/
 
 webpack-stats-local.json
 
