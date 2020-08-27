@@ -25,7 +25,7 @@ SECRET_KEY = 'tiuba+@r$%=f9&%98=0#4(36lz1i#ilb^q)w3ex05=ne3zz^w_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['puskarjoshi.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -124,8 +124,6 @@ MEDIA_URL = '/images/'
 
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'staticfiles')
 # ]
