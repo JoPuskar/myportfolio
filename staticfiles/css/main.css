@@ -1,5 +1,6 @@
 body{
     background-color: lightgrey;
+    text-align: center;
 }
 
 #profile-wrapper{
@@ -28,4 +29,6 @@ ul {
     width: 20px;
     height: 20px;
 }
-
+/*p {*/
+/*    margin: 1.2rem;*/
+/*}*/

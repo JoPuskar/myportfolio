@@ -1,5 +1,10 @@
 body{
     background-color: lightgrey;
+    text-align: center;
+}
+footer {
+    margin-top: 3rem;
+    text-align: center;
 }
 
 #profile-wrapper{
