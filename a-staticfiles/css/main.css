@@ -2,10 +2,12 @@ body{
     background-color: lightgrey;
     text-align: center;
 }
+
 footer {
     margin-top: 3rem;
     text-align: center;
 }
+
 
 #profile-wrapper{
     text-align: center;
@@ -30,7 +32,6 @@ ul {
 }
 
 .social{
-    width: 20px;
-    height: 20px;
+    width: 24px;
+    height: 24px;
 }
-
